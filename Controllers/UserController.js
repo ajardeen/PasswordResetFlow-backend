@@ -114,7 +114,7 @@ const mailVerification = async (req, res) => {
     <html>
       <body>
         <h1>Email is Verified Reset Your Password</h1>
-        <a href="${process.env.FRONTEND_APP_URL}/${token}/${email}">Click here to reset your password</a>
+        <a href="${process.env.FRONTEND_APP_URL}/resetpassword/${token}/${email}">Click here to reset your password</a>
       </body>
     </html>
   `);
